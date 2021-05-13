@@ -1,0 +1,35 @@
+body{
+    background-image: url("background.jpg");
+}
+#realtime_btn{
+    background-color: aqua;
+    border-radius: 7px;
+    width: 300px;
+    height: 100px;
+    font-size:30px;
+    box-shadow: 5px 5px 10px cyan;
+    border-width: 1px;
+}
+#snap_btn{
+    background-color: rgb(160, 18, 216);
+    border-radius: 7px;
+    width: 300px;
+    height: 100px;
+    font-size:30px;
+    box-shadow: 5px 5px 10px rgb(160, 18, 216);
+    border-width: 1px;
+    
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 10px red;}
+    to{box-shadow: 5px 5px 10px   cyan;}
+}
+#snap_btn:hover{
+    background-color: crimson;
+    box-shadow: 5px 5px 10px crimson;
+}
